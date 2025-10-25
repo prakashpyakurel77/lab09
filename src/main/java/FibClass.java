@@ -26,5 +26,17 @@ public class FibClass {
         
         return f[n];
     }
-
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
+        System.out.println("Fibonacci (Recursive) of 10: " + fibRec(10));
+        System.out.println("Fibonacci (Iterative) of 10: " + fibIter(10));
+    }
 }
+    
+    
+    
+
+
